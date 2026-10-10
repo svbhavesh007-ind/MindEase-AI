@@ -132,6 +132,31 @@ document.addEventListener("DOMContentLoaded", () => {
     crisisModal.classList.remove("open");
   });
 
+  // Mobile Sidebar (Mood Radar Drawer)
+  const btnToggleSidebar = document.getElementById("btn-toggle-sidebar");
+  const btnCloseSidebar = document.getElementById("btn-close-sidebar");
+  const sidebarLeft = document.getElementById("sidebar-left");
+  const sidebarBackdrop = document.getElementById("sidebar-backdrop");
+
+  if (btnToggleSidebar) {
+    btnToggleSidebar.addEventListener("click", () => {
+      sidebarLeft.classList.toggle("open");
+      if (sidebarBackdrop) sidebarBackdrop.classList.toggle("open");
+    });
+  }
+  if (btnCloseSidebar) {
+    btnCloseSidebar.addEventListener("click", () => {
+      sidebarLeft.classList.remove("open");
+      if (sidebarBackdrop) sidebarBackdrop.classList.remove("open");
+    });
+  }
+  if (sidebarBackdrop) {
+    sidebarBackdrop.addEventListener("click", () => {
+      sidebarLeft.classList.remove("open");
+      sidebarBackdrop.classList.remove("open");
+    });
+  }
+
   // Tab switching
   tabButtons.forEach(btn => {
     btn.addEventListener("click", () => {
@@ -386,11 +411,16 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/\n/g, '<br>');
 
     let emotionBadgeHtml = "";
-    if (emotion) {
+    if (emotion && !isUser) {
+      const valenceClass = (emotion.valence || "neutral").toLowerCase();
       emotionBadgeHtml = `
-        <span class="message-emotion-pill" title="Confidence: ${emotion.confidence_percentage}">
-          ${emotion.emoji} ${emotion.primary_emotion.toUpperCase()} (${emotion.confidence_percentage})
-        </span>
+        <div class="message-emotion-badge emotion-${valenceClass}">
+          <span class="badge-emoji">${emotion.emoji}</span>
+          <div class="badge-details">
+            <span class="badge-emotion">${emotion.primary_emotion.toUpperCase()}</span>
+            <span class="badge-meta">${emotion.confidence_percentage} &bull; ${escapeHtml(emotion.actionable_theme || "Attuned")}</span>
+          </div>
+        </div>
       `;
     }
 
@@ -428,8 +458,8 @@ document.addEventListener("DOMContentLoaded", () => {
         <div class="message-header">
           <span class="message-sender">${isUser ? 'You' : 'MindEase'}</span>
           <span class="message-time">${timeStr}</span>
-          ${emotionBadgeHtml}
         </div>
+        ${emotionBadgeHtml}
         <div class="message-body">
           ${formattedText}
           ${exerciseHtml}
