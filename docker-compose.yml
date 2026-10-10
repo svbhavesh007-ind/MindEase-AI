@@ -1,0 +1,17 @@
+version: '3.8'
+
+services:
+  mindease-app:
+    build: .
+    container_name: mindease-mental-wellness
+    ports:
+      - "8000:8000"
+    environment:
+      - GROQ_API_KEY=${GROQ_API_KEY}
+      - GROQ_MODEL=${GROQ_MODEL:-llama-3.3-70b-versatile}
+      - PORT=8000
+      - HOST=0.0.0.0
+    restart: unless-stopped
+    volumes:
+      - ./data:/app/data
+      - ./models:/app/models

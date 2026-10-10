@@ -1,0 +1,604 @@
+text	emotion	response
+I got the internship I applied for, I can't stop smiling!	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+Today was such a good day, everything just went right.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+I finally finished my project and it turned out amazing.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+My friends threw me a surprise party and I feel so loved.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+I aced my exam after weeks of studying, I'm thrilled!	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+Spending time with my family this weekend made me really happy.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+I got a text from an old friend and it made my whole day.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+I just adopted a puppy and I'm overjoyed.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+We won the college fest competition, I'm on top of the world.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+I finally paid off my small debt, feels amazing.	joy	That's wonderful to hear! Celebrating these good moments matters — thank you for sharing your happiness with me.
+I feel really down today, nothing seems to be going right.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+I miss my hometown so much, college feels lonely.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+I failed my exam even after trying so hard.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+My best friend moved to another city and I feel empty.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+I don't feel like getting out of bed today.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+Everything feels heavy and I don't know why.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+I keep crying for no clear reason lately.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+I lost my grandmother last week and I miss her a lot.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+Nobody seems to understand what I'm going through.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+I feel like I'm falling behind everyone else in life.	sadness	I'm really sorry you're feeling this way. It's okay to feel sad, and I'm here to listen if you want to talk more about it.
+My roommate keeps ignoring the rules we agreed on, it's so frustrating.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+I'm furious that my project partner didn't do any work.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+The professor graded my assignment unfairly and I'm really angry.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+I can't stand it when people talk behind my back.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+I'm so mad at myself for missing the deadline.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+My parents keep comparing me to my cousin and it makes me angry.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+Someone cut in line and I nearly lost my temper.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+I hate how nobody listens to my ideas in group meetings.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+I'm irritated that my plans got cancelled last minute again.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+It makes my blood boil when people are disrespectful to staff.	anger	It makes sense that you'd feel angry about that. Do you want to talk through what happened, or would it help to think about how to respond?
+I have a huge presentation tomorrow and I'm terrified I'll mess up.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+I'm scared about my future after graduation.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+Walking home alone at night makes me anxious and scared.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+I'm afraid I won't be able to pay my tuition next semester.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+The thought of failing this course scares me a lot.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+I'm nervous about the job interview I have next week.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+I feel scared whenever I have to speak in public.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+I'm worried something bad is going to happen to my family.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+I panic every time I think about my final exams.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+I'm afraid people will judge me if I open up about my feelings.	fear	That sounds really scary to sit with. You're not alone in feeling this way — want to talk about what's making you most afraid?
+My heart races whenever I think about all the deadlines piling up.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+I can't stop overthinking every conversation I had today.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+I feel restless and on edge without knowing exactly why.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+My mind keeps jumping to worst case scenarios about my exams.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+I've been struggling to sleep because my thoughts won't quiet down.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+I feel a tight knot in my stomach before every class presentation.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+I keep checking my phone anxiously waiting for the results.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+Group projects make me anxious because I fear letting people down.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+I feel overwhelmed just looking at my to-do list.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+My hands get shaky whenever I have to talk to professors.	anxiety	It sounds like your mind is carrying a lot right now. Let's slow down for a moment — would it help to break things down together?
+I have three assignments due this week and I don't know where to start.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+Balancing part-time work and college is draining me completely.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+I feel like there aren't enough hours in the day to finish everything.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+The pressure to perform well every semester is exhausting.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+I'm juggling too many responsibilities and it's wearing me down.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+Exam season always leaves me feeling completely burnt out.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+I feel stretched thin trying to keep up with everything at once.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+The constant pressure from my family to succeed is stressful.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+I haven't had a proper break in weeks and I'm exhausted.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+Deadlines keep piling up faster than I can handle them.	stress	That's a lot to manage at once. It makes sense you're feeling stretched thin — let's see if we can prioritize one thing at a time.
+I moved to a new city for college and I don't know anyone here.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+I eat lunch alone most days and it makes me feel isolated.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+Even in a room full of people, I feel completely alone.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+I haven't had a real conversation with anyone in days.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+It feels like everyone has their own friend group except me.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+I miss having someone to talk to about my day.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+I feel disconnected from everyone around me lately.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+Online classes have made me feel more isolated than ever.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+I scroll through social media and feel left out of everything.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+I wish I had someone who truly understood me.	loneliness	Feeling disconnected like that is really hard. I'm glad you shared it with me — you don't have to carry it alone.
+I'm so thankful for my friends who supported me during finals.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I appreciate my professor taking the time to explain things again.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I'm grateful my family always has my back no matter what.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+Thank goodness for my roommate, she really helped me through a rough week.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I feel blessed to have people who check in on me.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I'm thankful I got a second chance to resubmit my assignment.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I appreciate the small moments of kindness from strangers.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I'm grateful for the scholarship that eased my financial stress.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I feel fortunate to have found a mentor who believes in me.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I'm thankful for my health and the people who care about me.	gratitude	It's lovely that you're noticing these moments of support and kindness. Gratitude like this can be a real source of strength.
+I know things are tough right now, but I believe it'll get better.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I'm hopeful about the internship interview I have next week.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+Even after failing once, I still believe I can pass next time.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I'm optimistic that this semester will be better than the last.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I feel like brighter days are ahead if I keep trying.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I have faith that things will work out eventually.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I'm looking forward to starting fresh next semester.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I believe I can turn my grades around if I stay consistent.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+There's a part of me that still believes good things are coming.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I'm hopeful I'll find my people here eventually.	hope	I love that you're holding onto hope. Believing things can get better is powerful, even on hard days.
+I snapped at my friend and I feel terrible about it.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I skipped my mom's call because I was busy and now I feel guilty.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I didn't study enough and I feel like I let my parents down.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I forgot my friend's birthday and I feel awful about it.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I feel guilty for not helping my teammate when they needed it.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I said something hurtful in the heat of the moment and regret it.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I feel bad for prioritizing myself over my family's expectations.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I keep replaying the argument I had with my sister, I feel guilty.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I feel guilty for taking a break when there's so much work left.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I didn't show up for my friend when they needed me most.	guilt	It sounds like you're being really hard on yourself. Everyone makes mistakes — what matters is how you move forward from here.
+I feel embarrassed about failing in front of the whole class.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I feel ashamed that I still haven't figured out my career path.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I messed up my presentation and I can't stop thinking about it.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I feel like a burden whenever I ask for help.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I'm embarrassed that I had a panic attack in public.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I feel like I'm not good enough compared to my classmates.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I feel ashamed of asking my parents for money again.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I froze during my interview and I feel humiliated.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I feel like everyone noticed when I made that mistake in class.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I'm ashamed that I haven't told anyone how I've been struggling.	shame	Thank you for trusting me with something that feels vulnerable. You deserve compassion, especially from yourself.
+I really appreciate how my partner always listens to me.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+My friends mean the world to me, I don't know what I'd do without them.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+I feel so cared for when my roommate checks in on me.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+I love how supportive my study group has been this semester.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+My family's encouragement means everything to me.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+I cherish the late night talks with my best friend.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+I feel deeply connected to my closest friends.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+I'm thankful for the unconditional support from my parents.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+I love how my mentor always makes time for me.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+Knowing someone believes in me makes such a difference.	love	It's beautiful that you have people who support you like that. Those connections are worth cherishing.
+I did not expect to top the class, I'm honestly shocked.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+My friends showed up unannounced and I was completely surprised.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+I never thought I'd get selected for the scholarship, what a surprise.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+I was stunned when my professor praised my work in class.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+I didn't see that grade coming at all.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+I was caught off guard by how supportive everyone was.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+I can't believe I actually finished the marathon, I'm amazed.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+It surprised me how quickly things turned around this week.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+I wasn't expecting such positive feedback on my project.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+I was shocked to hear I got the placement offer so early.	surprise	That sounds like quite the moment! How are you feeling now that it's settled in a bit?
+The way some people gossip about others really disgusts me.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+I feel repulsed by how dishonest some people can be.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+It's disgusting how some students cheat and get away with it.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+I'm disgusted by how littered the campus has become.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+The hypocrisy I see around me honestly makes me sick.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+I feel disgusted when people are cruel to those who can't defend themselves.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+It's revolting how some professors play favorites unfairly.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+I can't stand the toxic environment in that group anymore.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+The way that person treated the staff was disgusting to watch.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+I feel disgusted by how fake some friendships turned out to be.	disgust	That sounds really frustrating to witness. It's valid to feel strongly about things that go against your values.
+I'm heading to the library to finish some reading.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+Today's classes were pretty routine, nothing special happened.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I have a meeting with my group at 4pm.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I'm just going through my notes before the test.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I had lunch at the usual cafeteria today.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I need to submit my assignment by tomorrow.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I'm planning my schedule for next week.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I watched a documentary after class today.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I'm organizing my notes for the upcoming semester.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+I went for a walk around campus this evening.	neutral	Got it, thanks for the update. Let me know if there's anything on your mind you'd like to talk through.
+Sometimes I feel like nothing I do matters and I just want to disappear from everyone.	sadness	I'm really glad you told me this, and I want you to know you matter. If these feelings are intense or ongoing, please consider reaching out to a counselor, trusted person, or a crisis helpline in your area — you don't have to go through this alone.
+I feel so hopeless that I don't see the point in trying anymore.	sadness	I'm really glad you told me this, and I want you to know you matter. If these feelings are intense or ongoing, please consider reaching out to a counselor, trusted person, or a crisis helpline in your area — you don't have to go through this alone.
+I feel completely numb and empty, like nothing will ever change.	sadness	I'm really glad you told me this, and I want you to know you matter. If these feelings are intense or ongoing, please consider reaching out to a counselor, trusted person, or a crisis helpline in your area — you don't have to go through this alone.
+I feel so happy today!	joy	That's wonderful to hear! Hold onto this beautiful feeling and let it brighten your day.
+I am happy	joy	I'm so glad you're feeling happy! What brought this joy into your day?
+I feel happy and relaxed	joy	It's so refreshing to feel happy and at peace. Enjoy every minute of it!
+Everything went great with my interview!	joy	Congratulations! All your preparation paid off — take time to celebrate this win!
+I am so excited and thrilled about the news!	joy	What fantastic news! Your excitement is truly contagious!
+I feel cheerful, energetic and full of life today.	joy	That positive energy is wonderful! Keep shining bright today.
+We just celebrated my birthday with my loved ones.	joy	Happy birthday! Surrounding yourself with love makes for such a joyful milestone.
+I got an A on my semester final exam!	joy	Incredible achievement! Hard work really pays off, you should be super proud.
+I just finished reading an amazing book that made me smile.	joy	Finding small pleasures like a great book is one of life's best joys.
+I finally made progress on my personal goals.	joy	Step by step, you're achieving what you set out to do — amazing feeling!
+I feel great today, woke up refreshed and ready.	joy	Starting the day with positive momentum is the best foundation.
+I had the best conversation with an old friend today.	joy	Reconnecting with people who matter always leaves your heart full.
+I just adopted a cat and she is purring on my lap.	joy	That is the sweetest thing! Furry companions bring so much pure joy.
+I'm feeling proud of how far I've come this year.	joy	Reflecting on your growth is powerful. You've earned every bit of that pride!
+Life is feeling peaceful and wonderful right now.	joy	Savor this calm and content moment. You deserve this peace.
+I feel sad	sadness	I'm really sorry you're feeling sad. It is completely okay to feel this way, and I'm right here with you.
+I feel so down and unhappy today	sadness	It's tough when a cloud hangs over your day. Take it gently — you don't have to force a smile.
+I am crying right now and feel miserable	sadness	I hear you, and it's okay to cry. Tears are a natural way of letting the weight out. Breathe gently.
+I feel heartbroken after the breakup	sadness	Breakups are intensely painful. Give yourself space to grieve — your heart will heal with time.
+I feel so depressed and gloomy, nothing feels good	sadness	Depression can make everything seem dark and distant. You are not alone, and I'm here to listen.
+I lost someone very close to me and the grief is unbearable	sadness	I am so deeply sorry for your loss. Grief is love with nowhere to go. Please be gentle with yourself.
+I feel like crying all the time lately	sadness	When sorrow lingers, it is exhausting. Remember that your feelings are valid and you don't have to carry them alone.
+I'm feeling really low and unmotivated	sadness	Low days happen to everyone. Don't pressure yourself to be productive — resting is healing.
+I miss how things used to be, everything changed	sadness	Nostalgia and longing for the past can ache deeply. Change is hard to sit with.
+I feel empty inside, like a piece of me is missing	sadness	Feeling numb or empty can be so disorienting. Take things one breath at a time.
+Nothing seems to bring me joy anymore	sadness	When anhedonia hits, life feels grey. That doesn't mean color won't return — please be kind to yourself.
+I feel disappointed in how things turned out	sadness	Disappointment hurts, especially when you hoped for better. It's okay to sit with that sadness.
+I feel sorrow in my heart today	sadness	I'm holding space for your sorrow. You don't have to explain it or justify it.
+I feel so helpless and down	sadness	Feeling down is heavy. Just take small steps today, even if it's just drinking a glass of water.
+I am having a very sad day	sadness	Thank you for sharing that with me. What would feel most comforting right now?
+I am feeling so stressed about exams	stress	Exam stress is so real and draining. Let's take a deep breath — you can only tackle one topic at a time.
+I am stressed	stress	I hear how stressed you are. Let's pause for a moment and take three slow, calming breaths.
+I have too much homework and deadlines piling up	stress	When tasks pile up, everything feels urgent. Let's write them down and pick just one small thing to start.
+I am so overwhelmed by my work schedule	stress	Carrying too much on your plate can make you feel crushed. It is okay to set boundaries or ask for extensions.
+I'm completely burnt out from college and studying	stress	Burnout is your body's signal that it desperately needs rest. Give yourself permission to pause today.
+The pressure on me right now is unbearable	stress	High expectations are exhausting to bear. Remember your worth isn't tied only to productivity.
+I have so many assignments due tomorrow and no time	stress	Deep breath. Panicking won't speed up time, but breaking things into 20-minute chunks will help you focus.
+I'm stressed out and my head is pounding	stress	Physical symptoms of stress are real. Step away from screens, drink water, and close your eyes for 5 minutes.
+Balancing family, job and studies is overwhelming me	stress	You're juggling so many heavy balls at once. Which ball can you set down for just today?
+I feel so exhausted and overworked	stress	Rest is a necessity, not a reward. Let yourself recharge without feeling guilty.
+The workload is insane this semester	stress	College demands can feel relentless. Remember to take micro-breaks to protect your mental health.
+I'm stressing about finances and bills	stress	Financial worries cause acute stress. Take things step by step and look into student aid resources.
+I can't keep up with all the demands on me	stress	You are human, not a machine. It's okay to say 'I've reached my limit for today'.
+Everything is piling on me all at once	stress	When life feels like an avalanche, focus only on the next 10 minutes. What is the immediate next step?
+I'm feeling under immense pressure	stress	Pressure can feel suffocating. Remember to breathe and release tension in your shoulders.
+I am anxious	anxiety	I hear you. Anxiety is your nervous system being on high alert. Let's do a quick 4-7-8 breath together.
+I am feeling so anxious and nervous	anxiety	Feeling anxious is really uncomfortable, but remember: this feeling will pass. You are safe right now.
+My heart is pounding and I feel like panicking	anxiety	Put your feet flat on the floor. Inhale slowly for 4 seconds, hold for 4, exhale for 6. You are grounded here.
+I can't stop overthinking every little detail	anxiety	Overthinking traps us in hypothetical futures. Bring your attention back to this exact room: name 3 things you can see.
+I have so much nervous energy and restlessness	anxiety	Restless anxiety wants movement. Try shaking out your hands, stretching, or taking a short walk.
+I'm worried sick about what might happen	anxiety	Worry pretends to be helpful, but it only drains today's peace. What is one thing you can actually control right now?
+I feel a pit of anxiety in my stomach	anxiety	Somatic anxiety is tough. Place a hand on your stomach, feel the warmth, and take slow belly breaths.
+I feel nervous about talking in front of people	anxiety	Social jitters are totally natural. Everyone gets nervous — focus on sharing your message, not on perfection.
+My thoughts are spinning out of control	anxiety	When thoughts race, write them onto paper. Getting them out of your head takes away their power.
+I feel jittery and on edge for no reason	anxiety	Sometimes anxiety spikes without a clear trigger. Be gentle with your body — sip cool water and rest.
+I'm panicking about my future and what if I fail	anxiety	'What if' questions can spiral endlessly. What if things actually turn out okay? Give yourself that possibility too.
+I have an impending sense of dread	anxiety	That dread is an emotional signal, not a prophecy. Ground yourself in what is real and safe around you.
+I can't sleep because my mind is racing with worries	anxiety	Try progressive muscle relaxation in bed: tense your toes, then release them, working your way up.
+I feel like something terrible is about to happen	anxiety	Remind yourself: 'My anxiety is telling a scary story, but I am safe in this moment.'
+I'm so hypervigilant and tense today	anxiety	Notice where you're clenching — your jaw, neck, or shoulders. Consciously let them drop.
+I am scared	fear	It's okay to feel scared. You don't have to face this alone — what is making you feel afraid?
+I am terrified of failing my exam	fear	Fear of failure is deeply intimidating. But a test result never defines your worth as a person.
+I'm afraid something bad will happen to my family	fear	Fearing for loved ones shows how deeply you care. Focus on the fact that right now, they are okay.
+Walking home alone in the dark terrified me	fear	That sounds truly frightening. I'm glad you're safe now — take a moment to let your pulse settle.
+I have a terrifying phobia that paralyzes me	fear	Phobias evoke intense fight-or-flight reactions. Acknowledge the fear and give yourself safety.
+I'm dreading tomorrow's meeting so much	fear	Dread can make an event feel 10 times scarier than it will actually be. You have handled hard days before.
+I am frightened by these medical test results	fear	Health scares are genuinely terrifying. Take it one doctor's appointment at a time.
+I feel scared of being rejected	fear	Fear of rejection is universal. Vulnerability takes immense courage, and you are brave for trying.
+I'm terrified of losing my job	fear	Job insecurity shakes our foundational safety. Let's focus on what practical steps you can take today.
+The darkness and strange noises outside scare me	fear	Check your locks, turn on a warm light, and put on comforting music to feel secure.
+I feel frightened and vulnerable	fear	Vulnerability can feel like standing without armor. You are safe here to express yourself.
+I have a deep fear of public speaking	fear	Public speaking fear ranks higher than fear of heights for many! Remember the audience is rooting for you.
+I'm scared of making the wrong life decision	fear	Most decisions in life aren't irreversible. Trust that you can navigate whatever comes.
+I feel pure panic and terror	fear	Focus on my words: you are breathing, your feet are on the floor, and this terror will subside.
+I'm scared about the future	fear	The future is unknown, which is scary. But you don't have to live all of tomorrow today.
+I am angry	anger	Your anger is completely valid. What happened that made you feel so angry?
+I hate my boss, he is so unfair	anger	It is so infuriating when authority figures treat people unfairly. You have every right to feel mad.
+I am so mad at my roommate for stealing my stuff	anger	That is a huge violation of trust and boundaries. Taking a deep breath before confronting them can help.
+I am furious right now	anger	I hear the fire in your words. Let's let the anger breathe before deciding what action to take.
+I'm so pissed off about this grade	anger	Working hard and getting an unfair grade is deeply frustrating. You deserve a fair explanation.
+People cut in front of me and were so rude	anger	Disrespect and bad manners can make anyone's blood boil. Don't let their bad behavior ruin your peace.
+I feel like screaming at the top of my lungs	anger	Sometimes you need an outlet. Punch a pillow, do a hard workout, or write out an unfiltered journal entry.
+I can't stand the way they lied straight to my face	anger	Betrayal and deceit are enraging. Your feelings are a healthy defense against dishonesty.
+I lost my temper and shouted at someone	anger	We all reach our boiling point sometimes. Once you've cooled down, you can decide how to repair it.
+It makes my blood boil when people bully others	anger	Righteous anger against cruelty shows your strong moral compass.
+I'm irritated and annoyed by everyone today	anger	When irritability is high, it often means your inner battery is depleted. Give yourself some quiet space.
+I feel so resentful about having to do all the chores	anger	Unbalanced burdens breed resentment. Setting clear, calm boundaries will be essential.
+I hate how they talked down to me like I'm stupid	anger	Being patronized is infuriating. You deserve respect, and their condescension reflects on them, not you.
+I'm furious with myself for making that mistake	anger	Turn some of that harsh anger toward self-forgiveness. You made a mistake, you aren't a mistake.
+I am boiling with rage	anger	Take slow exhales. Let the physical heat dissipate so you can think clearly about your next move.
+I feel lonely	loneliness	Feeling lonely is one of the heaviest human aches. I'm glad you reached out — you are heard here.
+Nobody cares about me, I have nobody to talk to	loneliness	I hear your pain, but please know you matter. Even when connection feels distant, you are not invisible.
+I feel so isolated in this new city	loneliness	Moving somewhere new can feel like being on a deserted island. Finding community takes time, but it will come.
+Everyone has their friend groups except me	loneliness	It hurts to feel on the outside looking in. Quality friendships take time to build, one conversation at a time.
+I spent the whole weekend alone in my room	loneliness	Long stretches of isolation can feed sadness. Maybe try stepping outside for a walk or sitting in a bustling café?
+I feel left out by my classmates	loneliness	Being excluded stings deeply. Their clique doesn't define your worth or your ability to find genuine friends.
+I have no real friends to share my thoughts with	loneliness	Having superficial contacts without depth is lonely. Keep being yourself — the right people will appreciate you.
+Nobody texted me all day, I feel forgotten	loneliness	Sometimes people are absorbed in their own chaos. Reach out to one person with a simple 'hey' — it might bridge the gap.
+I feel so disconnected from everyone around me	loneliness	You can feel lonely even in a crowded room. What kind of connection are you longing for most?
+I wish I had someone who truly understood me	loneliness	To be deeply seen and understood is a fundamental human need. Thank you for being vulnerable with me.
+I eat every meal alone and it makes me sad	loneliness	Meal times can amplify loneliness. Listening to an engaging podcast or reading can make solo meals more enjoyable.
+I feel like an outcast wherever I go	loneliness	Feeling different is tough, but your uniqueness is also your strength. You will find your tribe.
+Nobody seems to notice whether I'm here or not	loneliness	I notice you, and what you're sharing is important. You matter in this world.
+I feel completely abandoned	loneliness	Abandonment wounds run deep. Offer yourself the gentle care and loyalty you wish others gave you.
+I'm longing for a meaningful connection with someone	loneliness	That longing is healthy and human. Keep your heart open, even when it feels discouraging.
+Thank you so much for being there for me	gratitude	It is truly my pleasure to support you. Knowing I could bring a little comfort means so much!
+I am grateful	gratitude	Gratitude is such a grounding practice. What are you feeling grateful for right now?
+I'm so thankful for my family and friends	gratitude	Having a loving support network is such a treasure. Tell them how much they mean to you!
+I appreciate your kind words and support	gratitude	Thank you for letting me in and sharing your feelings. Your trust is very special.
+I feel so blessed to have a roof over my head and food	gratitude	Acknowledging simple blessings brings immense contentment and perspective.
+I want to express my gratitude for this opportunity	gratitude	Approaching opportunities with gratitude sets you up for genuine growth and success!
+I'm grateful my health is improving after being sick	gratitude	Healing is a wonderful gift. May your body continue to regain strength and vitality!
+Thank you for listening to me without judgment	gratitude	Listening with an open, non-judgmental heart is the least anyone deserves. I'm always here.
+I feel thankful for another beautiful day	gratitude	Greeting each sunrise with appreciation is a powerful way to live.
+I appreciate my professor helping me after class	gratitude	Good mentors make a world of difference. It's lovely that you recognized their effort!
+I'm so thankful I survived that tough period	gratitude	You made it through the storm! Your strength and resilience deserve celebration.
+I appreciate the small acts of kindness people showed today	gratitude	Noticing kindness in everyday life restores faith in humanity.
+I feel full of appreciation and warmth	gratitude	Hold that warm appreciation close — it's a great buffer against stress.
+I'm grateful for my mentor who guided me	gratitude	Guidance from someone who believes in you is priceless. Pay it forward whenever you can!
+Thanks a lot, that really helped me feel better	gratitude	I am so glad to hear that! Keep taking care of yourself today.
+I love spending time with my puppy	love	Animals give the purest, most unconditional love. Enjoy every snuggle with your pup!
+I love my partner so much, they are amazing	love	What a beautiful connection! Cherishing each other with respect and love is wonderful.
+I feel so much love and affection for my family	love	Family bonds filled with warmth and care are one of life's greatest anchors.
+My friends mean the absolute world to me	love	True friendship is a profound form of love. It's wonderful that you value them so deeply.
+I cherish every moment with the people I care about	love	Being present with loved ones creates memories that last a lifetime.
+I felt so loved and cared for today	love	Feeling loved fills your emotional cup to the brim. Let that warmth sink in deeply.
+I have so much adoration for my little sister	love	Sibling love is so special. Being a loving role model means everything.
+I am in love and it feels magical	love	Falling in love brings so much color and excitement into the world! Savor this sweet chapter.
+I feel deeply connected to my best friend	love	Having a soul-level friendship is rare and precious. Keep nurturing that bond.
+Sending love and positive thoughts to everyone	love	Your open, generous heart brings light to those around you.
+I love how supportive my community has been	love	A supportive community is a safe haven. Being held in that care is comforting.
+I care about them with all my heart	love	Loving someone with wholehearted devotion is brave and beautiful.
+I feel warmth and affection in my heart	love	Resting in feelings of love and tenderness is deeply healing for the soul.
+My heart is full of love today	love	May that full heart guide your day and bring peace to your mind.
+I love my pets, they bring me so much peace	love	Pets teach us unconditional acceptance. What a blessing they are!
+I believe things will get better soon	hope	Holding onto that hope is so powerful. Brighter days are waiting ahead for you.
+I am hopeful about my future	hope	Optimism gives wings to our efforts. Keep working toward your vision step by step!
+I have faith that everything will work out in the end	hope	Trusting the process brings peace amidst uncertainty. You have what it takes to navigate it.
+I'm looking forward to starting fresh next semester	hope	Fresh starts bring new energy, new chances, and new growth. You've got this!
+Even though it's hard now, I know I will overcome this	hope	Your resilience is inspiring. You've conquered hard times before, and you will conquer this too.
+I feel optimistic about this new job application	hope	Fingers crossed for you! Approach it with confidence and your authentic self.
+There's still hope for my recovery and healing	hope	Healing isn't linear, but every single day is a step toward wholeness. Keep believing.
+I see a light at the end of the tunnel	hope	When that light appears, keep moving toward it. You've come through the darkest part.
+I believe in second chances and new beginnings	hope	Life is full of renewals. Give yourself the grace of a clean slate today.
+I'm feeling positive about tomorrow	hope	Going to sleep with positive expectations sets the tone for a wonderful tomorrow.
+Things are finally starting to look up for me	hope	What a relief to see the tides turning! Enjoy this upward momentum.
+I have hope that our relationship will improve	hope	With honest communication and care, healing between people is always possible.
+I'm confident that my hard work will pay off	hope	Consistent effort rarely goes unrewarded. Keep planting those seeds.
+Better days are coming, I can feel it	hope	Trust your intuition. Hope is the anchor of the soul.
+I'm keeping my head high and staying hopeful	hope	Your strength and positive spirit will carry you through anything.
+I feel so guilty for yelling at my sister	guilt	Regret shows that you care about her feelings. A sincere apology can mend that bridge quickly.
+I feel guilty	guilt	Guilt is heavy to carry. Remember, making a mistake doesn't make you a bad person.
+I should have studied more, I feel like I let everyone down	guilt	You did what you could with the energy you had. Forgive yourself and plan for next time.
+I broke my promise and I feel awful about it	guilt	Owning your mistake is the first step. Talk openly to them and ask how you can make it right.
+It's all my fault that our team lost the project	guilt	Team projects are shared efforts — no single person carries the entire blame. Share the load.
+I feel bad for taking a break when others are working	guilt	Resting is necessary for survival, not something to feel guilty about. You deserve to rest.
+I lied to my parents and the guilt is eating me alive	guilt	Living with deceit weighs heavily on the soul. Coming clean with honesty will bring relief.
+I forgot my best friend's birthday and I feel terrible	guilt	Life gets overwhelming sometimes. Reach out with heartfelt wishes — true friends understand.
+I feel guilty for spending money on myself	guilt	Taking care of your own needs and treating yourself occasionally is healthy, not selfish.
+I wish I had been there when they needed me	guilt	You can't change the past, but you can be present for them moving forward.
+I said hurtful things in anger and regret it deeply	guilt	Words said in anger sting, but humble amends and changed behavior heal wounds.
+I feel like I'm not doing enough for my family	guilt	You are doing your best with what you have. Don't measure your worth by impossible standards.
+I cheated on my diet/routine and feel remorse	guilt	Perfection isn't the goal — consistency is. Tomorrow is a brand new day to get back on track.
+I'm carrying so much guilt from my past mistakes	guilt	The past is a place of reference, not a place of residence. Allow yourself to move forward.
+I feel remorseful and sorry for what I did	guilt	True remorse leads to growth. Learn the lesson and offer yourself grace.
+I feel like I'm not good enough and I'm a failure	shame	Please hear this: you are NOT a failure. You are a human being learning and growing every day.
+I feel ashamed of myself	shame	Shame thrives in secrecy and self-judgment. You are inherently worthy, regardless of any stumble.
+I made a fool of myself in front of the whole class	shame	Everyone has had cringe-worthy moments they wish they could erase. People forget much faster than we think.
+I feel embarrassed about my body and looks	shame	Society pushes unrealistic ideals. Your body is your home and carries you through life — treat it with kindness.
+I'm so humiliated after what happened in the interview	shame	Interviews are nerve-wracking! One awkward interview doesn't define your intelligence or capabilities.
+I feel defective and unworthy of love	shame	Shame lies to you when it says you're unworthy. You are deserving of love and belonging just as you are.
+I feel mortified by that stupid text I sent	shame	We've all sent messages we wish we could take back. Take a deep breath — it will feel tiny in a week.
+I'm ashamed that I have mental health struggles	shame	Struggling with mental health is an illness, not a moral flaw or weakness. Seeking support is brave.
+I feel like everyone is judging me and looking down on me	shame	The spotlight effect makes us feel scrutinized, but most people are wrapped up in their own lives.
+I'm embarrassed to ask for help because I should know this	shame	Asking questions is how we learn. No one knows everything, and seeking guidance is smart.
+I feel inadequate compared to my peers	shame	Comparison is the thief of joy. Walk your own unique path at your own pace.
+I'm ashamed of my grades this semester	shame	Grades reflect temporary academic performance, not your character, value, or future potential.
+I hate who I am right now, I feel so flawed	shame	Give yourself the unconditional compassion you would give a suffering friend right now.
+I feel so small and insignificant	shame	You matter, and your presence in this world has meaning even when you can't feel it.
+I'm hiding because I feel too embarrassed to face them	shame	Come out into the light gently. Vulnerability disarms shame every single time.
+The way people gossip about others behind their back is sickening	disgust	Gossip and deceit are so toxic to be around. Setting boundaries against that behavior is healthy.
+I am disgusted by their behavior	disgust	It is completely valid to feel revolted when someone acts with cruelty or dishonesty.
+I feel repulsed by how dirty and unhygienic this place is	disgust	Living in an unclean environment takes a toll on mental clarity. Time for a thorough cleaning!
+The hypocrisy of that politician makes me sick	disgust	Hypocrisy and double standards are infuriating and distasteful to witness.
+It's disgusting how some people treat restaurant staff	disgust	Seeing workers mistreated makes anyone with empathy feel disgusted. Kindness costs nothing.
+I feel grossed out by that creepy comment they made	disgust	Trust your gut feelings. That kind of behavior crosses boundaries and you have every right to feel disgusted.
+I can't stand the smell and mess in this apartment	disgust	A cluttered, dirty room affects your mood. Taking 15 minutes to tidy up will bring relief.
+It is revolting how they cheated to get ahead	disgust	Unfair cheating offends our sense of justice. Focus on maintaining your own integrity.
+I feel sickened by the cruelty shown to that stray dog	disgust	Cruelty to defenseless animals is appalling. Channel that feeling into supporting animal welfare if you can.
+I'm disgusted by how fake some friends turned out to be	disgust	Fake friends leave a bad taste in your mouth. Let them go and make room for authentic friendships.
+That movie had vile and disturbing scenes	disgust	Some media leaves us feeling unsettled or dirty. Put on something comforting and lighthearted instead.
+I feel repelled by their greedy attitude	disgust	Greed and selfishness are unattractive qualities. Guard your values and stay grounded in generosity.
+It makes me nauseous just thinking about what they did	disgust	When an action evokes physical nausea, your moral compass is reacting strongly. Take space away from it.
+I'm sick of this toxic environment and drama	disgust	Drama drains your life force. You don't have to participate in conversations that disturb your peace.
+I feel completely revolted by their lies	disgust	Truth matters, and lies are deeply distasteful. Distance yourself from people who cannot be honest.
+I did not expect to win first place at all, wow!	surprise	What an incredible surprise! That must feel surreal and exciting — enjoy every second of it!
+I am so shocked and surprised by the sudden news!	surprise	Big surprises take time to process. Take a moment to catch your breath and let it sink in.
+They threw me an unexpected surprise party!	surprise	How wonderful that your loved ones orchestrated that for you! What a heartwarming surprise.
+I can't believe what just happened, I'm stunned	surprise	Stunned silence is real when life throws a curveball. How is your mind feeling right now?
+I was completely caught off guard by their announcement	surprise	Unexpected shifts can leave you scrambling. Give yourself time before responding.
+I never imagined my test score would be that high!	surprise	A pleasant surprise that proves you underestimated your own abilities! Great job!
+Out of nowhere, my old roommate called me today	surprise	Random connections from the past can be so delightfully surprising! How did the catch-up go?
+I'm amazed by how quickly everything changed	surprise	Life can pivot in an instant. Ground yourself in what remains steady while you adapt.
+I didn't see that coming at all!	surprise	Surprises definitely keep us on our toes. Are you feeling good or overwhelmed by it?
+I was astonished by the beauty of the sunset today	surprise	Nature has a way of stopping us in our tracks with awe. Moments of wonder are soul food.
+I'm flabbergasted by their sudden decision	surprise	Sudden turnarounds leave us dizzy. Take your time to digest what this means for you.
+That was such a pleasant surprise, it made my week	surprise	Unexpected gifts and moments of joy are the best kinds of surprises. Keep smiling!
+I am shocked by how much support I received	surprise	Discovering that people rally behind you when you need it is a beautiful revelation.
+I can't believe how fast this year flew by	surprise	Time has a way of slipping through our fingers. Looking back with wonder is natural.
+What a shock! I never expected this outcome	surprise	Take a breath and let the dust settle. You'll know your next step soon enough.
+Just checking in, had lunch and now working	neutral	Thanks for checking in! Hope your work goes smoothly this afternoon.
+Hello, how are you doing today?	neutral	Hello! I'm here and ready to support you. How are you feeling today?
+Hi there	neutral	Hi! How is your day going? Feel free to share anything on your mind.
+Hey, good morning	neutral	Good morning! Wishing you a peaceful and productive day ahead.
+I'm heading to the library to study for an hour	neutral	Sounds like a solid plan. Wishing you focused, productive study time!
+Today was pretty routine, nothing special	neutral	Routine days can be comforting and steady. Did anything catch your interest today?
+I'm just organizing my desk and notes	neutral	Tidying up your physical space brings mental clarity. Enjoy the fresh desk!
+I cooked dinner and now watching TV	neutral	Sounds like a relaxing evening. Enjoy your meal and the show!
+Doing fine, just going about my day	neutral	Glad to hear things are steady. If you ever want to reflect or chat, I'm right here.
+I have a meeting at 3pm today	neutral	Noted! Take a moment to review your notes before the meeting starts.
+Going for a quick walk around the neighborhood	neutral	Walking is a great way to clear your head and stretch your legs. Enjoy the fresh air!
+Nothing much is happening right now	neutral	Quiet moments can be a nice breather. How is your energy level today?
+I woke up at 7am and had breakfast	neutral	A steady morning routine is a great start. What does the rest of your day look like?
+Just browsing online before heading to sleep	neutral	Make sure to give your eyes a break before bed so you can get restful sleep!
+I'm waiting for the bus to arrive	neutral	Safe travels on your commute! Hope you have a pleasant trip.
+I'm thrilled, just got the scholarship I worked all year for!	joy	That is huge news! All your late nights and dedication were worth it!
+Today was incredible, I spent it laughing with my closest friends.	joy	Laughing until your stomach hurts with great friends is the absolute best feeling.
+I passed my driving test on the first try!	joy	Woohoo! Freedom on the road — congratulations on passing!
+I feel so lighthearted and joyful right now.	joy	It's so wonderful when life feels light and easy. Savor this joy!
+My project got chosen as the best in class!	joy	Outstanding accomplishment! You deserve all the praise and recognition.
+I woke up feeling so blessed and happy with life.	joy	Starting your morning in that headspace is pure magic.
+We won the match in the final second, what a win!	joy	What a victory! Nothing beats the rush of a last-second triumph!
+I had the most relaxing and delightful day at the beach.	joy	The ocean has a way of resetting our spirits. Glad you had such a lovely time.
+I feel ecstatic about our upcoming trip!	joy	Vacation anticipation is half the fun! What are you most excited to do?
+I'm smiling ear to ear after reading their message.	joy	Messages that make you grin like that are true treasures.
+I reached my fitness goal today after months of training.	joy	Consistency leads to results, and you proved that to yourself today!
+Everything seems to be falling into place so nicely.	joy	When life flows smoothly, it feels amazing. Appreciate every single bit of it.
+I feel so content and proud of my family.	joy	Family triumphs and peace bring the deepest kind of happiness.
+I treated myself to my favorite meal and it made me so happy.	joy	Good food shared or savored solo is one of life's purest delights!
+I feel like dancing, everything is going so well!	joy	Put on some music and celebrate! Joy is meant to be expressed!
+I feel so deeply depressed, getting out of bed feels impossible.	sadness	I hear how exhausted and low you feel. Don't worry about doing anything big — just existing is enough right now.
+I feel tears rolling down my face and I can't stop them.	sadness	Let the tears flow gently. You are safe here, and you don't need to hold it together.
+My pet passed away today and I am completely devastated.	sadness	Losing a beloved pet is heartbreaking. They leave huge pawprints on our hearts.
+I feel so sorrowful and heavy inside.	sadness	That heaviness is real. Sit with it gently, and remember you don't have to carry it all alone.
+I just found out bad news and my heart sank.	sadness	Receiving bad news knocks the wind out of you. Take slow breaths and give yourself time to absorb it.
+I'm feeling down in the dumps, nothing goes my way.	sadness	When a string of bad luck hits, it's so discouraging. It's okay to feel disappointed.
+I feel a profound sense of sadness today.	sadness	Thank you for being honest with your feelings. I'm right here with you.
+I miss my parents so much, living far away hurts.	sadness	Homesickness is an ache of love. Give them a quick call or look at family photos.
+I'm mourning the loss of a close friendship.	sadness	The ending of a friendship hurts just like a breakup. Honor what it meant, and be gentle with yourself.
+I feel defeated and exhausted from trying so hard.	sadness	Constantly pushing against walls wears you down. Give yourself permission to pause.
+The grey weather matches my gloomy mood today.	sadness	Weather can deeply impact our emotional state. Put on soft lights and wrap up in a warm blanket.
+I feel like nobody really cares if I'm hurting.	sadness	I care, and your pain matters. Even when it feels like no one sees, you are seen here.
+I feel melancholic listening to these old songs.	sadness	Music can stir up deep reservoirs of nostalgia and bittersweet sorrow.
+I'm struggling with deep emotional pain right now.	sadness	I hear how much you are hurting. Please remember this acute ache will soften with time.
+I just feel so unhappy and blue.	sadness	Blue days are part of being human. Be kind to yourself today.
+I have so many deadlines this week, I feel suffocated by work.	stress	Take a deep breath. Let's make a simple checklist and focus only on item number one.
+My job is stressing me out so much, my boss demands too much.	stress	Toxic work pressure is draining. You are more than your job, and your health comes first.
+I am drowning in college coursework and exam prep.	stress	College can feel overwhelming. Remember: one chapter at a time, one page at a time.
+I haven't slept properly because of continuous stress.	stress	Chronic stress sabotages sleep. Tonight, try putting your phone in another room 30 minutes before bed.
+My schedule is packed back-to-back, I don't even have time to eat.	stress	Skipping meals only fuels stress hormones. Please take 15 minutes to nourish your body.
+I am feeling extreme stress from all the responsibilities on my shoulders.	stress	When you're carrying the weight of the world, it's time to put some bags down.
+I can't cope with this academic pressure anymore.	stress	You're not failing — the academic load is simply excessive. Talk to an advisor or professor for extensions.
+I feel like I'm running on empty, totally burnt out.	stress	Empty tanks can't drive forward. Rest is non-negotiable right now.
+The constant tension in my shoulders from stress is killing me.	stress	Drop your shoulders away from your ears. Unclench your jaw. Take a slow, deep breath.
+Deadlines, bills, and family expectations are crushing me.	stress	That's an overwhelming cocktail of pressures. What is the single most urgent matter you can handle today?
+I'm stressing out over whether I'll finish this on time.	stress	Focus on effort, not clock-watching. Doing your best in this hour is all you can do.
+I have so much on my mind, I can't concentrate on anything.	stress	Mental clutter causes paralysis. Write down everything in your head onto a brain-dump notepad.
+The expectations placed on me are completely unreasonable.	stress	You are allowed to speak up and set boundaries on what is humanly feasible.
+I am overwhelmed by everything going on in my life.	stress	When life is too much, shrink your world down to just the next hour. You can handle one hour.
+I'm so stressed I feel sick to my stomach.	stress	Physical stress responses need somatic calming: sip warm water, breathe slowly, and sit comfortably.
+I'm having a panic attack, my chest feels tight and heart is racing.	anxiety	Focus on my words: you are not dying, this is a panic surge and it WILL pass. Breathe in 4, out 6. You are safe.
+I'm terrified of social situations, I feel like everyone stares at me.	anxiety	Social anxiety magnifies imaginary spotlights. People are mostly thinking about themselves, not judging you.
+I feel intense anxiety before walking into my classroom.	anxiety	Take a pause right outside the door. Feel your feet solid on the ground. You have the right to be there.
+My mind won't stop generating worst-case scenarios.	anxiety	Tell your mind: 'Thank you for trying to protect me, but right now I am okay.'
+I wake up with a knot of anxiety in my chest every morning.	anxiety	Morning cortisol spikes are very common. Try drinking a full glass of water and taking 5 gentle breaths before checking your phone.
+I feel so restless, anxious, and unsettled.	anxiety	When anxiety makes you fidget, channel it into gentle physical activity like walking or stretching.
+I keep checking my email compulsively waiting for test results.	anxiety	Compulsive checking heightens anxiety. Set your phone down for 30 minutes and do something with your hands.
+I'm scared of having an anxiety attack in public.	anxiety	Even if you feel anxious in public, remember that having anxiety is nothing to be ashamed of.
+My hands are shaking from anxiety.	anxiety	Notice the shaking without fighting it. Shaking is just your body discharging adrenaline. It will calm down soon.
+I feel like I'm losing control of my thoughts.	anxiety	You don't have to control every thought — just let them pass by like clouds in the sky.
+I'm constantly anticipating catastrophe.	anxiety	Catastrophizing is an anxious habit. Ground yourself in what is actually true right here, right now.
+I feel on edge, jumpy, and easily startled.	anxiety	Your nervous system is sensitized. Soothe it with low lighting, soft sounds, and quiet surroundings.
+I get so anxious when someone says 'we need to talk'.	anxiety	That phrase triggers instant dread! Remind yourself that you don't know the topic yet, and you can handle conversations.
+My stomach is churning with nervous tension.	anxiety	Breathe into your lower belly. Let your abdomen relax completely with each slow exhale.
+I feel overwhelming dread about tomorrow.	anxiety	Tomorrow will take care of itself. For tonight, give yourself permission to rest in safety.
+I'm afraid I will fail out of college.	fear	College challenges are scary, but academic support, tutoring, and advisors exist to help you succeed.
+I'm terrified of flying on an airplane.	fear	Flight anxiety is very common. Remind yourself that aviation is statistically safer than driving.
+I have a deep fear of the dark and strange sounds.	fear	Fear of the dark is a natural primal instinct. Keep a nightlight or relaxing audio on.
+I'm scared of losing the people I love most.	fear	Cherish them today. Love inherently comes with vulnerability, but that's what makes connection precious.
+I heard someone outside my window and I'm frightened.	fear	Make sure your doors and windows are securely locked. If you ever feel unsafe, call emergency services immediately.
+I'm afraid I'll never find happiness or stability.	fear	Fear paints a grim future that doesn't exist yet. Take one hopeful step at a time.
+I am terrified of medical needles and hospitals.	fear	Medical phobias are tough. Look away, practice deep belly breathing, and tell the healthcare provider you get scared.
+I feel intense fear when I have to drive in heavy traffic.	fear	Drive in the slow lane, keep ample distance, and focus only on the car directly in front of you.
+I'm scared of confronting someone who hurt me.	fear	Confrontation takes immense courage. You can also write down what you want to say in advance.
+I have nightmares that leave me waking up in sheer terror.	fear	Nightmares can feel terrifyingly real. Touch the wall, feel your bed, and remind yourself: 'It was just a dream, I'm safe.'
+I'm frightened about how fast my life is changing.	fear	Change triggers our fear of the unknown. Focus on the few steady constants you still have.
+I fear being completely alone in old age.	fear	Life has many unpredictable chapters. Focus on cultivating good relationships in the present.
+I am terrified of making a fool of myself on stage.	fear	Stage fright peaks right before starting. Once you take the first breath, your practice takes over.
+I have a phobia of dogs / heights / spiders.	fear	Phobias are intense instinctual reactions. Don't push yourself beyond your comfort zone without support.
+I feel frozen in fear.	fear	Start by wiggling your toes. Take one deep breath. Movement breaks the freeze state.
+I'm so angry at my group members for doing zero work and taking credit!	anger	That is outrageously unfair! Document their lack of contribution and notify your instructor calmly.
+I feel so angry, I want to punch a wall!	anger	Channel that physical aggression safely: punch a mattress or do 20 fast jumping jacks instead of hurting your hands.
+I am furious that my flight got cancelled without any notice.	anger	Airlines being careless with passengers' time is infuriating. Demand your rightful compensation or meal vouchers.
+My parents violated my privacy and read my personal diary.	anger	That is a severe boundary violation. Your anger is a healthy signal that your privacy was breached.
+I'm sick of people treating me like a doormat!	anger	Good! Let that anger fuel strong, assertive boundaries. You deserve respect.
+Someone scratched my new car and drove away without a note.	anger	Hit-and-runs are cowardice at its worst. Your rage is 100% justified. Check for nearby security cameras.
+I can't believe how selfish and inconsiderate they are.	anger	Selfish behavior wears down our patience. Distance yourself from people who only take.
+I'm enraged by the injustice and corruption happening around us.	anger	Injustice should make us angry. Channel that fire into activism, advocacy, or positive community action.
+I lost my cool and screamed at my colleague.	anger	Apologize for the tone while standing firm on the underlying issue once cooler heads prevail.
+I'm so annoyed and irritated by their constant whining.	anger	Constant negativity is exhausting to endure. Step out of the room or wear noise-cancelling headphones.
+I hate when people promise something and never deliver.	anger	Flakiness breaks trust. Next time, rely on your own plans and don't count on their promises.
+I'm boiling inside because they blamed their mistake on me.	anger	Scapegoating is dirty and dishonest. State the objective facts clearly in writing to protect yourself.
+I feel so resentful towards my siblings.	anger	Sibling rivalries and perceived favoritism run deep. Speaking calmly to them or a counselor can help untangle it.
+I'm furious with the customer support team for wasting my entire day.	anger	Being bounced around on hold is infuriating. Ask directly to speak with a supervisor.
+I am mad, pissed, and tired of this nonsense.	anger	Let it all out in a journal entry. Burn the paper if it helps you release the venom safely.
+I feel completely alone in this world, nobody understands me.	loneliness	Feeling misunderstood is so isolating. But your thoughts and feelings are valid, and you are not invisible here.
+I'm sitting alone in the dining hall and feeling so out of place.	loneliness	Eating alone in public feels intimidating, but many people actually admire solo diners. Pop in earphones and enjoy your meal.
+I haven't received a single text or call in a week.	loneliness	Silence from friends can make you feel forgotten. Send a casual meme or greeting to someone you miss — reach out first.
+I feel lonely even when I'm around my family.	loneliness	Emotional disconnect inside family homes is a poignant kind of loneliness. What kind of conversation do you wish they had with you?
+I have thousands of followers but zero real friends.	loneliness	Social media follower counts are a hollow substitute for genuine intimacy. Seek out one authentic connection.
+Friday night and I have nowhere to go and nobody to see.	loneliness	Solo Friday nights can be turned into self-care nights: a movie, your favorite snack, or cozy gaming.
+I feel like an alien on this campus, nobody shares my interests.	loneliness	Look into niche campus clubs, gaming groups, or creative arts circles where like-minded people gather.
+I'm dealing with chronic loneliness and it hurts physically.	loneliness	Loneliness activates the same brain pain centers as physical injury. Be extra gentle and nurturing to yourself.
+I miss having a best friend to tell all the little details of my day to.	loneliness	Having that trusted confidante is priceless. I'm right here to listen to any small detail you'd like to share.
+I feel abandoned by my old high school friends.	loneliness	People drift apart as lives diverge after high school. It makes room for new friendships that fit who you are now.
+I hate coming home to an empty dark room every evening.	loneliness	Leave a warm lamp on a timer so you come home to light. Put on a welcoming podcast or soft background music.
+I feel isolated because of my illness.	loneliness	Chronic illness or health issues isolate people so deeply. Seek out online support communities where peers understand.
+No one invites me to hang out anymore.	loneliness	Sometimes groups fall into routines without malice. Try taking the initiative to organize a simple get-together.
+I crave human connection so badly.	loneliness	That craving is the most natural human desire. Keep reaching out; your people are out there.
+I feel like I live on an island cut off from everyone.	loneliness	Let this chat be a bridge to that island. You are heard, you exist, and you matter.
+I'm so thankful my friend stayed on the phone with me while I was crying.	gratitude	What an incredible, loyal friend. Make sure to let them know how much that meant to you!
+I feel blessed to have food on my plate and a safe bed tonight.	gratitude	Recognizing foundational blessings fills the spirit with peace and perspective.
+Thank you for helping me through this difficult night.	gratitude	I am honored to walk beside you through the dark. You are doing great, keep going.
+I appreciate my professor writing me such a glowing letter of recommendation.	gratitude	A strong recommendation opens doors! A handwritten thank-you note would be a lovely gesture.
+I'm so grateful for my body and everything it allows me to do.	gratitude	Body gratitude shifts our focus from how we look to all the miraculous things our body does.
+I want to thank everyone who supported our fundraiser.	gratitude	Community coming together to help others is inspiring. Celebrate the generosity around you!
+I'm thankful that my car broke down close to a repair shop and not on the highway.	gratitude	Finding the silver lining in inconvenient situations is true wisdom and gratitude.
+I appreciate the bus driver who waited for me when I was running late.	gratitude	Everyday heroes who show small kindnesses make society softer. What a sweet relief!
+I'm so grateful I found this mental health app to talk to.	gratitude	I'm so glad to be here as your compassionate companion whenever you need a listening ear!
+Thank you from the bottom of my heart.	gratitude	You are so very welcome. Your kind words mean the world!
+I'm grateful for my sibling who always defends me.	gratitude	A loyal sibling in your corner is a lifelong ally. Cherish that connection!
+I feel thankful for books and music that comfort my soul.	gratitude	Art and music give solace when words fail. What song has comforted you most lately?
+I appreciate having quiet moments of solitude to reflect.	gratitude	Solitude is a gift when we choose it mindfully. Enjoy the quiet stillness.
+I'm grateful for modern medicine and compassionate healthcare workers.	gratitude	Healthcare workers do heroic work daily. Gratitude for healing is so grounding.
+Thank you, your advice helped me gain clarity.	gratitude	I'm delighted to hear that! Trust yourself as you move forward.
+I love my partner with all my heart, they make me feel so safe.	love	A partnership built on safety and mutual devotion is one of life's greatest gifts!
+Looking at my baby sister smile makes my heart melt with love.	love	Babies and young siblings bring out our purest, most protective love. Enjoy every cute milestone!
+I love my mom so much, she sacrificed everything for us.	love	A mother's devotion is boundless. Take a moment to tell her how deeply you appreciate her sacrifices.
+I feel so much love and affection for my cat.	love	Cats have that magical purr that heals the soul. Cuddle up and soak in that affection!
+My best friends showed up with soup when I was sick, I love them.	love	Acts of service when you're under the weather prove true love in friendship. You are blessed!
+I'm falling in love and it's the best feeling in the world.	love	Butterflies, late-night giggles, and daydreaming — enjoy this magical beginning!
+I cherish our late-night heart-to-heart conversations.	love	Vulnerable nighttime talks forge bonds that withstand time and distance.
+I feel so deeply loved and accepted by my circle.	love	Being loved for exactly who you are without masks is liberation. Savor that acceptance!
+I love the little quirks and jokes we share as a couple.	love	Inside jokes and quirky rituals are the glue of romantic affection!
+I have so much love to give to this world.	love	An open, generous heart makes the world a warmer place for everyone you encounter.
+I love my grandparents, their stories are my favorite treasure.	love	Grandparents are living history and unconditional love. Record their stories if you can!
+I felt a deep surge of warmth and love for everyone in the room.	love	Universal goodwill and loving-kindness is a peak human emotion. Breathe into that expansive warmth.
+I love our family tradition of cooking Sunday meals together.	love	Shared culinary traditions bond families across generations. What's your favorite dish to make?
+I love seeing people be kind to animals and children.	love	Witnessing pure kindness restores faith in humanity. Love is everywhere if we look closely.
+My partner surprised me with my favorite flowers just because.	love	Thoughtful gestures 'just because' say 'I was thinking of you' louder than grand speeches.
+I'm hopeful that with this new medication my health will improve.	hope	Medical advances bring genuine hope. Wishing you steady, gentle healing each day.
+I believe in brighter days ahead, storm clouds always pass.	hope	Storms run out of rain eventually. Hold steady to that beautiful optimism!
+I am looking forward to graduating and starting my real career.	hope	The transition to professional life is an exciting new chapter! You've worked so hard for this.
+I'm optimistic that my interview next week will go great.	hope	Carry that confidence into the room! Prepare well and let your authenticity shine.
+Even after failing twice, I still believe I can pass this certification.	hope	Resilience is getting up one more time than you fall. Third time's the charm!
+I have hope that our family can heal and reconcile.	hope	Healing family rifts takes patience and grace. Holding hope is the first courageous step.
+Things have to get better from here, I've hit rock bottom.	hope	When you're at the bottom, every direction points upward. Keep climbing; you're stronger than you know.
+I feel a renewed sense of purpose and hope today.	hope	A fresh sense of purpose is the spark of life! What goal are you excited to pursue?
+I believe good people still exist and kindness will win.	hope	Never lose faith in the goodness of everyday people. You are proof that kind souls exist.
+I have faith that my hard work will be rewarded eventually.	hope	Hard work rarely goes to waste. The seeds you plant today will bloom tomorrow.
+I'm looking forward to the weekend to recharge and rest.	hope	Having something pleasant on the horizon makes the week so much easier to get through!
+I believe I can break these bad habits and change my life.	hope	Neuroplasticity means you can rewire your habits at any age. Believe in your capacity to evolve!
+There is always a way forward, even in tough situations.	hope	That problem-solving hope is your greatest asset. One step at a time will get you through.
+I'm hopeful I'll find true friends in this new city.	hope	Give it time and keep showing up at places you enjoy. Your tribe will find you.
+The future feels full of exciting possibilities.	hope	Embrace that wide-open horizon! You have the pen to write the next chapter.
+I feel so guilty for canceling plans with my friend at the last minute.	guilt	Explain honestly that you were burnt out or unwell. A true friend values your wellbeing over social plans.
+I feel guilty that I survived when others suffered.	guilt	Survivor's guilt is a heavy emotional burden. Honor those who suffered by living a meaningful, kind life.
+I shouldn't have eaten all that junk food, I feel so guilty.	guilt	Food has no moral value! One meal doesn't undo your health. Forgive yourself and nourish your body naturally.
+I feel awful for speaking harshly to my mom when I was stressed.	guilt	Apologize with humility: 'Mom, I was stressed and took it out on you. I'm sorry.' She will appreciate your honesty.
+I feel guilty for taking sick leave when the team is busy.	guilt	You cannot pour from an empty cup. Taking care of your health is a responsibility, not a luxury.
+I broke my promise to my sister and I can't forgive myself.	guilt	Self-forgiveness starts with amends. Ask her: 'How can I make this up to you?' and follow through.
+I feel like I'm letting my parents down by choosing this major.	guilt	Living your authentic life is not letting anyone down. You have to walk your career, not your parents.
+I feel guilty for having fun while my friend is grieving.	guilt	You having a moment of laughter doesn't diminish your empathy for your friend. Give yourself grace.
+I cheated on a test and the guilt is eating me up.	guilt	Use that remorse as an ethical compass: learn the lesson and commit to honesty from here on out.
+I feel guilty for spending money on a hobby.	guilt	Investing in joy and recreation is part of a balanced life. You don't have to justify every penny.
+I said something insensitive and only realized it later.	guilt	Send a quick message: 'Hey, I realized what I said earlier was insensitive. I'm truly sorry.' Owning it heals bonds.
+I feel guilty that I haven't visited my grandparents in months.	guilt	Life gets busy, but you can call them today! A 10-minute phone call will make their whole week.
+I feel like a bad friend for not checking in enough.	guilt	Friendships ebb and flow with busy schedules. Send a warm 'thinking of you' text without over-apologizing.
+I blame myself for the team's project failure.	guilt	Outcomes are never the sole responsibility of one contributor. Share the learning and move forward.
+I feel terrible about my past mistakes.	guilt	Mistakes are proof that you were trying and growing. Don't let your past hold your present hostage.
+I feel so embarrassed, I tripped and fell in front of everyone in the hallway.	shame	Physical stumbles happen to every human on earth. Laugh it off — in five minutes no one will remember!
+I'm ashamed of my poor background compared to wealthy classmates.	shame	Your family's financial status does not measure your intelligence, dignity, or human value.
+I froze up during my presentation and couldn't speak.	shame	Stage paralysis happens when fight-or-flight overwhelms the prefrontal cortex. Be gentle with yourself; it was a physical response, not a lack of capability.
+I feel worthless and inadequate in everything I do.	shame	That is shame whispering lies. You have inherent, unconditional worth simply because you exist.
+I'm humiliated that I didn't get selected for the club.	shame	Rejection stings, but it is often redirection. One selection committee's decision doesn't define your talents.
+I feel ashamed of having an emotional breakdown.	shame	Crying and breaking down is releasing emotional pressure that was unsustainable. It is human, not weak.
+I hate the way I sound and look in recorded videos.	shame	Almost everyone dislikes their own recordings because of how our skulls conduct sound! Be proud of showing up.
+I feel like an imposter who will get exposed soon.	shame	Imposter syndrome is common among high achievers! You earned your place here through your own hard work.
+I'm embarrassed that I don't know basic life skills yet.	shame	No one is born knowing how to do taxes or cook gourmet meals. Life skills are learned one tutorial at a time!
+I feel so small and pathetic right now.	shame	Wrap your arms around yourself and breathe. You are going through a painful moment, but you are not pathetic.
+I feel ashamed that I got rejected by my crush.	shame	Putting your heart out there takes immense bravery. Rejection is part of dating, not an indictment of your worth.
+I'm mortified by how I behaved when I was drunk.	shame	Learn from the experience, make sincere amends if needed, and decide what boundaries you need around alcohol.
+I feel like a burden to my friends whenever I share my feelings.	shame	True friends want to support you just as you would support them. Sharing feelings is connection, not a burden.
+I'm ashamed of my accent when speaking English.	shame	Having an accent means you speak more than one language! That is a sign of intelligence and cultural richness.
+I feel disgusted with myself and wish I could disappear.	shame	Please stay. This shame storm will pass. You are valuable and loved.
+I'm disgusted by how some people treat stray animals with cruelty.	disgust	Animal cruelty is abhorrent and offensive to any moral conscious. Channel your outrage into helping local shelters.
+The cafeteria food was undercooked and moldy, I'm grossed out.	disgust	Yuck! That's a serious hygiene violation. Report it to campus health and food services immediately.
+I feel repulsed by their vulgar and crude language.	disgust	Vulgarity can feel slimy and disrespectful. You have every right to leave environments that make you uncomfortable.
+The bathroom in our dorm is filthy and nauseating.	disgust	A dirty communal bathroom is intolerable. Call dorm maintenance or establish a strict cleaning schedule.
+I can't stand people who cheat on their partners, it's sickening.	disgust	Infidelity is a deep violation of trust and intimacy. Your disgust reflects your commitment to loyalty and truth.
+I feel revolted by the corrupt politician's arrogant speech.	disgust	Arrogance paired with dishonesty is distasteful. Stay grounded in integrity in your own life.
+It's disgusting how they spread vile rumors about innocent people.	disgust	Slander is malicious and toxic. Never participate in spreading rumors and defend the innocent when you can.
+I feel grossed out by finding a bug in my drink.	disgust	Ugh, that is completely repulsive! Return it to the server and ask for a fresh drink or refund.
+I'm sickened by people mocking disabled individuals.	disgust	Cruelty to vulnerable individuals is contemptible. Standing up for kindness is always the right choice.
+The smell of stale cigarette smoke makes me feel nauseated.	disgust	Smell sensitivities are real. Move into fresh air and open windows to clear the odor.
+I'm disgusted by how they used their friend for money and dumped them.	disgust	Using people as commodities is repulsive. True friendship is built on respect, not exploitation.
+It's revolting how much food is wasted while people starve.	disgust	Food waste is a tragic symptom of excess. Supporting food rescue charities is a great way to fight back.
+I feel sick to my stomach from their deceit and lies.	disgust	When someone looks you in the eye and lies, it feels visceral. Cut ties with chronic liars.
+I can't stomach this graphic violence in the news anymore.	disgust	Sensationalized violence takes a heavy toll. Do a digital detox and protect your mental wellbeing.
+I feel completely repelled by their snobbish attitude.	disgust	Elitism and looking down on others is deeply unattractive. True class is treating everyone with equal respect.
+I am totally shocked, my brother just announced he's getting married!	surprise	What exciting news! That's a huge life milestone — congratulations to your brother and family!
+I didn't expect the exam to be this easy, what a pleasant surprise!	surprise	When preparation meets opportunity, things feel easy! Great job mastering the material!
+I walked into my room and found a birthday gift on my bed!	surprise	How sweet and thoughtful! A secret surprise gift makes anyone feel special.
+I was stunned to find out my quiet roommate is a national chess champion!	surprise	Hidden talents are so fascinating! You never know what incredible skills people possess.
+The movie had such an insane plot twist, my jaw dropped!	surprise	A great plot twist that catches you off guard is peak cinema! What movie was it?
+I can't believe it started snowing in October, what a shock!	surprise	Unseasonal weather is so wild and magical! Bundle up and watch the flakes fall.
+My boss promoted me out of nowhere today!	surprise	What a phenomenal surprise! That shows they've been noticing your hard work all along!
+I was caught completely unprepared by the pop quiz.	surprise	Pop quizzes are the bane of every student's existence! Do your best with what you know.
+Out of the blue, my childhood friend flew in to visit me!	surprise	What an extraordinary surprise reunion! Savor every story and laugh together.
+I am astonished by how friendly everyone was in this new city.	surprise	Finding warm hospitality when you expected coldness is such a heartwarming surprise.
+I didn't expect to love this book, but I finished it in one day!	surprise	Getting unexpectedly hooked on a book is one of life's greatest pleasures.
+What a shock, the power went out right before my online submission!	surprise	Oh no, talk about terrible timing! Switch to your phone's mobile hotspot immediately!
+I never thought I could run 5 kilometers without stopping, I'm amazed!	surprise	Surpassing your own perceived limits is the most empowering surprise! You did it!
+I was bewildered by their sudden change of heart.	surprise	People can turn on a dime, leaving us blinking in surprise. Give yourself time to process.
+That surprise party blew me away, I had no clue!	surprise	Keeping a surprise party secret is so hard to pull off — they really love you!
+I'm just organizing my files on my laptop.	neutral	Digital decluttering is so satisfying. Hope it speeds up your workflow!
+Had a sandwich for lunch and now reading.	neutral	Sounds like a peaceful afternoon. Enjoy your reading time.
+I'm going to sleep now, good night.	neutral	Good night! Wishing you restful, peaceful sleep and sweet dreams.
+The weather is cloudy today.	neutral	Cloudy weather can be nice and cool. Stay cozy today!
+I have classes from 9 to 1 today.	neutral	A busy morning ahead! Make sure you have your water and snacks packed.
+Just watching a documentary on space.	neutral	Space documentaries are fascinating and mind-expanding. Enjoy learning!
+I'm doing my weekly laundry right now.	neutral	Getting chores done frees up your mind for the weekend. Keep up the momentum!
+Just waiting in line at the grocery store.	neutral	Hope the line moves quickly! What did you pick up today?
+I finished my workout and took a shower.	neutral	Post-workout showers feel amazing. You're refreshed and ready for the day.
+Sitting in the library finishing some notes.	neutral	The quiet focus of a library is a great study environment. Keep going!
+I drank some green tea and checked my schedule.	neutral	A calm, mindful start to the day. Hope your schedule goes smoothly.
+It's 5pm and I'm heading back home from college.	neutral	Commuting back home marks the end of the academic day. Safe travels!
+I'm recharging my phone and resting my eyes.	neutral	Giving your eyes a break from blue light is great for relaxation.
+Listening to instrumental music while working.	neutral	Lo-fi or classical instrumentals are fantastic for maintaining steady flow state.
+Nothing special, just an ordinary Tuesday.	neutral	Ordinary days are the backbone of a steady life. Have a calm evening.

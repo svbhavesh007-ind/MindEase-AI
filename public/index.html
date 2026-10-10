@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MindEase — Emotion-Aware AI Mental Wellness Companion</title>
+  <meta name="description" content="An advanced emotion-aware AI mental wellness companion powered by NLP classification, empathetic dialogue generation, and crisis intervention protocols.">
+  
+  <!-- Modern Typography from Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  
+  <!-- Feather Icons -->
+  <script src="https://unpkg.com/feather-icons"></script>
+  
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="app-container">
+    
+    <!-- Top Navigation Bar -->
+    <header class="navbar">
+      <div class="nav-brand">
+        <div class="brand-icon">
+          <span class="pulse-ring"></span>
+          <i data-feather="heart" class="icon-heart"></i>
+        </div>
+        <div class="brand-text">
+          <h1>MindEase <span class="badge-ai">AI 2.0</span></h1>
+          <p class="brand-subtitle">Emotion-Aware Mental Wellness</p>
+        </div>
+      </div>
+
+      <!-- Center Status Pill -->
+      <div class="nav-center">
+        <div class="emotion-status-pill" id="global-emotion-pill">
+          <span class="status-indicator"></span>
+          <span id="global-emotion-emoji">🌱</span>
+          <span id="global-emotion-text">Active Emotion: Calibrated</span>
+          <span class="confidence-tag" id="global-confidence-tag">Ready</span>
+        </div>
+      </div>
+
+      <!-- Action Controls -->
+      <div class="nav-actions">
+        <button class="nav-btn" id="btn-toggle-voice" title="Toggle Voice (Text-to-Speech)" aria-label="Toggle Voice Audio">
+          <i data-feather="volume-2" id="icon-voice"></i>
+          <span class="btn-text">Voice: ON</span>
+        </button>
+        <button class="nav-btn" id="btn-open-wellness" title="Mindfulness & Breathing Toolkit" aria-label="Open Wellness Hub">
+          <i data-feather="sun"></i>
+          <span class="btn-text">Wellness Hub</span>
+        </button>
+        <button class="nav-btn theme-toggle" id="btn-toggle-theme" title="Toggle Dark/Light Mode" aria-label="Toggle Theme">
+          <i data-feather="moon" id="icon-theme"></i>
+        </button>
+        <button class="nav-btn sos-btn" id="btn-sos" title="Emergency Help & Crisis Helplines" aria-label="Emergency Crisis Support">
+          <i data-feather="alert-circle"></i>
+          <span class="btn-text">SOS Help</span>
+        </button>
+      </div>
+    </header>
+
+    <!-- Main Workspace Layout -->
+    <main class="main-layout">
+      
+      <!-- Left Sidebar: Emotional Intelligence Dashboard -->
+      <aside class="sidebar-left" id="sidebar-left">
+        <div class="sidebar-section">
+          <div class="section-header">
+            <h3><i data-feather="activity"></i> Emotional State</h3>
+            <span class="live-dot" title="Live NLP Model Active">LIVE</span>
+          </div>
+
+          <!-- Current Emotion Card -->
+          <div class="emotion-card" id="current-emotion-card">
+            <div class="emotion-card-glow" id="emotion-card-glow"></div>
+            <div class="emotion-avatar" id="emotion-avatar">🌿</div>
+            <div class="emotion-meta">
+              <h4 id="detected-emotion-name">Neutral / Centered</h4>
+              <p id="detected-emotion-theme">Ready for open dialogue</p>
+              <div class="valence-bar-wrapper">
+                <div class="valence-labels">
+                  <span>Valence</span>
+                  <span id="valence-val" class="valence-val neutral">Neutral</span>
+                </div>
+                <div class="valence-progress">
+                  <div class="valence-fill" id="valence-fill" style="width: 50%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Emotion Probability Spectrum -->
+        <div class="sidebar-section">
+          <div class="section-header">
+            <h3><i data-feather="bar-chart-2"></i> NLP Emotion Radar</h3>
+            <span class="info-badge" title="Trained on 15 annotated mental health emotional classes">TF-IDF Model</span>
+          </div>
+          <div class="probability-bars" id="probability-bars">
+            <div class="prob-row">
+              <span class="prob-name">Neutral</span>
+              <div class="prob-track"><div class="prob-fill" style="width: 45%; background: var(--accent);"></div></div>
+              <span class="prob-percent">45%</span>
+            </div>
+            <div class="prob-row">
+              <span class="prob-name">Calm</span>
+              <div class="prob-track"><div class="prob-fill" style="width: 25%; background: var(--success);"></div></div>
+              <span class="prob-percent">25%</span>
+            </div>
+            <div class="prob-row">
+              <span class="prob-name">Hope</span>
+              <div class="prob-track"><div class="prob-fill" style="width: 15%; background: var(--teal);"></div></div>
+              <span class="prob-percent">15%</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Quick Feelings Check-in Chips -->
+        <div class="sidebar-section">
+          <div class="section-header">
+            <h3><i data-feather="zap"></i> Quick Check-ins</h3>
+          </div>
+          <div class="feeling-chips">
+            <button class="chip" data-prompt="I'm feeling really anxious and overwhelmed with college deadlines.">⚡ Exam Anxiety</button>
+            <button class="chip" data-prompt="I feel so lonely in this college, like nobody really understands me.">🌌 Feeling Lonely</button>
+            <button class="chip" data-prompt="I finally got the internship result and I'm overjoyed!">✨ Celebrating Joy</button>
+            <button class="chip" data-prompt="I am furious with how unfairly my group project handled work.">🔥 Frustrated / Angry</button>
+            <button class="chip" data-prompt="I feel down today, completely unmotivated and tired.">🌧️ Feeling Low</button>
+            <button class="chip" data-prompt="My thoughts are spiraling and I can't catch my breath.">🛡️ Need Grounding</button>
+          </div>
+        </div>
+
+        <!-- Session Statistics -->
+        <div class="sidebar-section session-stats">
+          <div class="stat-item">
+            <span class="stat-number" id="stat-messages">0</span>
+            <span class="stat-label">Messages</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" id="stat-primary-mood">Neutral</span>
+            <span class="stat-label">Dominant Mood</span>
+          </div>
+          <div class="stat-item">
+            <span class="stat-number" id="stat-exercises">0</span>
+            <span class="stat-label">Calm Pauses</span>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Center: Conversational Space -->
+      <section class="chat-viewport">
+        
+        <!-- Welcome Hero Banner -->
+        <div class="welcome-banner" id="welcome-banner">
+          <div class="welcome-badge">
+            <i data-feather="shield"></i> 100% Confidential & Supportive Space
+          </div>
+          <h2>Hello, I'm here with you.</h2>
+          <p>
+            Whether you're carrying anxiety, joy, grief, or simply need a safe ear to untangle your day, 
+            I listen with active empathy, recognize your emotional shifts in real-time, and offer comforting grounding practices.
+          </p>
+          <div class="welcome-actions">
+            <button class="btn-primary" id="btn-quick-start">
+              <i data-feather="message-circle"></i> Start Talking
+            </button>
+            <button class="btn-secondary" id="btn-welcome-breathing">
+              <i data-feather="wind"></i> 4-7-8 Breathing
+            </button>
+          </div>
+        </div>
+
+        <!-- Scrollable Messages Container -->
+        <div class="chat-messages" id="chat-messages" role="log" aria-live="polite">
+          <!-- Messages will be dynamically rendered here -->
+        </div>
+
+        <!-- Typing Indicator -->
+        <div class="typing-indicator" id="typing-indicator" style="display: none;">
+          <div class="typing-avatar">🌱</div>
+          <div class="typing-bubble">
+            <span class="typing-label">MindEase is reflecting...</span>
+            <div class="typing-dots">
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chat Input Area -->
+        <div class="chat-input-wrapper">
+          <form class="chat-input-form" id="chat-form">
+            <button type="button" class="tool-btn mic-btn" id="btn-mic" title="Voice Input (Speech to Text)" aria-label="Speech to text">
+              <i data-feather="mic" id="mic-icon"></i>
+            </button>
+
+            <textarea 
+              id="user-input" 
+              class="chat-textarea" 
+              placeholder="How are you feeling right now? Share anything on your mind..." 
+              rows="1" 
+              maxlength="2000"
+              required
+            ></textarea>
+
+            <button type="submit" class="send-btn" id="btn-send" title="Send Message" aria-label="Send Message">
+              <i data-feather="send"></i>
+            </button>
+          </form>
+
+          <div class="input-footer">
+            <span class="footer-note">
+              <i data-feather="info" class="icon-inline"></i> 
+              MindEase is an empathetic AI wellness companion for student support, not a clinical replacement.
+            </span>
+            <button class="clear-chat-btn" id="btn-clear-chat" title="Clear current session">
+              <i data-feather="trash-2"></i> Clear Chat
+            </button>
+          </div>
+        </div>
+      </section>
+
+      <!-- Right Drawer: Wellness & Mindfulness Hub -->
+      <aside class="wellness-drawer" id="wellness-drawer">
+        <div class="drawer-header">
+          <div class="drawer-title">
+            <i data-feather="feather"></i>
+            <h3>Mindfulness Hub</h3>
+          </div>
+          <button class="close-drawer-btn" id="btn-close-drawer" aria-label="Close Wellness Drawer">
+            <i data-feather="x"></i>
+          </button>
+        </div>
+
+        <!-- Wellness Tabs -->
+        <div class="wellness-tabs">
+          <button class="tab-btn active" data-tab="breathing">
+            <i data-feather="wind"></i> 4-7-8 Breath
+          </button>
+          <button class="tab-btn" data-tab="grounding">
+            <i data-feather="compass"></i> 5-4-3-2-1
+          </button>
+          <button class="tab-btn" data-tab="journal">
+            <i data-feather="book-open"></i> Mood Journal
+          </button>
+        </div>
+
+        <!-- Tab 1: 4-7-8 Breathing Circle -->
+        <div class="tab-content active" id="tab-breathing">
+          <div class="breathing-card">
+            <h4>Paced Parasympathetic Reset</h4>
+            <p class="exercise-intro">Inhale for 4s &bull; Hold for 7s &bull; Exhale for 8s</p>
+
+            <div class="breathing-display">
+              <div class="breathing-circle-outer">
+                <div class="breathing-circle-core" id="breathing-bubble">
+                  <span class="breathing-phase" id="breathing-phase">Ready</span>
+                  <span class="breathing-timer" id="breathing-timer">4s</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="breathing-controls">
+              <button class="btn-primary" id="btn-start-breathing">
+                <i data-feather="play"></i> Start Exercise
+              </button>
+              <button class="btn-secondary" id="btn-stop-breathing" disabled>
+                <i data-feather="square"></i> Stop
+              </button>
+            </div>
+            <p class="cycle-counter" id="breathing-cycles">Cycles completed: 0 / 4</p>
+          </div>
+        </div>
+
+        <!-- Tab 2: 5-4-3-2-1 Grounding Checklist -->
+        <div class="tab-content" id="tab-grounding">
+          <div class="grounding-card">
+            <h4>5-4-3-2-1 Sensory Grounding</h4>
+            <p class="exercise-intro">Anchor your awareness to the present moment to stop panic or intrusive spiral.</p>
+
+            <div class="grounding-steps" id="grounding-steps">
+              <div class="grounding-step" data-step="1">
+                <div class="step-num">5</div>
+                <div class="step-content">
+                  <strong>SEE:</strong> Acknowledge 5 things you see around you right now.
+                  <input type="text" class="grounding-input" placeholder="e.g. My desk, lamp, curtains, window, pen">
+                </div>
+              </div>
+              <div class="grounding-step" data-step="2">
+                <div class="step-num">4</div>
+                <div class="step-content">
+                  <strong>FEEL:</strong> Notice 4 physical textures or contact points.
+                  <input type="text" class="grounding-input" placeholder="e.g. Feet on floor, fabric of sleeves, chair">
+                </div>
+              </div>
+              <div class="grounding-step" data-step="3">
+                <div class="step-num">3</div>
+                <div class="step-content">
+                  <strong>HEAR:</strong> Listen for 3 distinct ambient sounds.
+                  <input type="text" class="grounding-input" placeholder="e.g. Fan humming, keyboard clicks, distant cars">
+                </div>
+              </div>
+              <div class="grounding-step" data-step="4">
+                <div class="step-num">2</div>
+                <div class="step-content">
+                  <strong>SMELL:</strong> Notice 2 scents in your environment.
+                  <input type="text" class="grounding-input" placeholder="e.g. Fresh breeze, coffee, book paper">
+                </div>
+              </div>
+              <div class="grounding-step" data-step="5">
+                <div class="step-num">1</div>
+                <div class="step-content">
+                  <strong>TASTE:</strong> Notice 1 taste or say one kind anchor word to yourself.
+                  <input type="text" class="grounding-input" placeholder="e.g. Mint, water, or 'I am safe'">
+                </div>
+              </div>
+            </div>
+            <button class="btn-primary" id="btn-complete-grounding" style="margin-top: 15px; width: 100%;">
+              <i data-feather="check-circle"></i> Save Grounding Anchor
+            </button>
+          </div>
+        </div>
+
+        <!-- Tab 3: Mood Journaling -->
+        <div class="tab-content" id="tab-journal">
+          <div class="journal-card">
+            <h4>Private Emotion Journal</h4>
+            <p class="exercise-intro">Pour your raw thoughts into writing. MindEase analyzes your emotion and stores your reflection locally.</p>
+            
+            <form id="journal-form">
+              <input type="text" id="journal-title" class="journal-title-input" placeholder="Reflection Title (e.g., Afternoon Reflections)" required>
+              <textarea id="journal-content" class="journal-content-input" rows="4" placeholder="How was your day? What thoughts felt loudest? What are you grateful for?" required></textarea>
+              <button type="submit" class="btn-primary" style="width: 100%; margin-top: 10px;">
+                <i data-feather="save"></i> Save & Analyze Entry
+              </button>
+            </form>
+
+            <div class="journal-entries-list" id="journal-entries-list">
+              <!-- Stored journal entries will show here -->
+            </div>
+          </div>
+        </div>
+
+      </aside>
+
+    </main>
+
+    <!-- Emergency Crisis Help Modal -->
+    <div class="modal-overlay" id="crisis-modal" role="dialog" aria-modal="true" aria-hidden="true">
+      <div class="modal-box crisis-modal-box">
+        <div class="modal-header">
+          <div class="crisis-badge">
+            <i data-feather="shield"></i> Immediate Crisis Support
+          </div>
+          <button class="close-modal-btn" id="btn-close-modal" aria-label="Close Modal">
+            <i data-feather="x"></i>
+          </button>
+        </div>
+
+        <div class="modal-body">
+          <div class="crisis-callout">
+            <p><strong>You are never alone.</strong> If you or someone you know is in acute distress, experiencing overwhelming feelings, or thinking about ending their life, please connect with these verified confidential helplines immediately. They are completely free and available 24 hours a day, 7 days a week.</p>
+          </div>
+
+          <div class="crisis-list">
+            <div class="crisis-item">
+              <div class="crisis-item-header">
+                <h4>Tele-MANAS (Govt. of India)</h4>
+                <span class="region-badge">India &bull; 24/7 Free</span>
+              </div>
+              <p>National mental health helpline with professional psychiatrists and counselors in 20+ languages.</p>
+              <a href="tel:14416" class="helpline-call-btn">
+                <i data-feather="phone-call"></i> Call 14416 (Toll-Free)
+              </a>
+            </div>
+
+            <div class="crisis-item">
+              <div class="crisis-item-header">
+                <h4>KIRAN National Mental Health</h4>
+                <span class="region-badge">India &bull; 24/7 Free</span>
+              </div>
+              <p>Ministry of Social Justice 24/7 helpline providing psychological first aid and anxiety triage.</p>
+              <a href="tel:18005990019" class="helpline-call-btn">
+                <i data-feather="phone-call"></i> Call 1800-599-0019
+              </a>
+            </div>
+
+            <div class="crisis-item">
+              <div class="crisis-item-header">
+                <h4>Vandrevala Foundation</h4>
+                <span class="region-badge">India &bull; WhatsApp & Call</span>
+              </div>
+              <p>Experienced mental health counseling network offering immediate compassionate support.</p>
+              <a href="tel:+919999666555" class="helpline-call-btn">
+                <i data-feather="phone-call"></i> Call +91 9999 666 555
+              </a>
+            </div>
+
+            <div class="crisis-item">
+              <div class="crisis-item-header">
+                <h4>988 Suicide & Crisis Lifeline</h4>
+                <span class="region-badge">USA & Canada &bull; 24/7</span>
+              </div>
+              <p>Call or text 988 from anywhere in the US or Canada to talk to a crisis counselor.</p>
+              <a href="tel:988" class="helpline-call-btn">
+                <i data-feather="phone-call"></i> Call or Text 988
+              </a>
+            </div>
+
+            <div class="crisis-item">
+              <div class="crisis-item-header">
+                <h4>Samaritans Helpline</h4>
+                <span class="region-badge">UK & Ireland &bull; 24/7</span>
+              </div>
+              <p>Free confidential listening service for anyone who is struggling to cope.</p>
+              <a href="tel:116123" class="helpline-call-btn">
+                <i data-feather="phone-call"></i> Call 116 123
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button class="btn-secondary" id="btn-dismiss-crisis">
+            I Understand & I'm Safe
+          </button>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- Audio element for gentle breathing chime -->
+  <audio id="audio-chime" preload="auto" src="https://cdn.freesound.org/previews/264/264762_4587395-lq.mp3"></audio>
+
+  <!-- Application Logic -->
+  <script src="js/app.js"></script>
+</body>
+</html>
