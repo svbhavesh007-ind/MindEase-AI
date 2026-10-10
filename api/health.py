@@ -1,6 +1,6 @@
 """
 Vercel Serverless Function for /api/health
-Direct endpoint routing for health check on Vercel.
+Handles /api/health, /api/health.py, /health, and root GET paths.
 """
 import sys
 from pathlib import Path
@@ -11,6 +11,9 @@ if str(BASE_DIR) not in sys.path:
 
 from backend.app.main import app, health_check
 
-@app.get("/", include_in_schema=False)
-def health_root():
+@app.api_route("/api/health.py", methods=["GET"], include_in_schema=False)
+@app.api_route("/api/health", methods=["GET"], include_in_schema=False)
+@app.api_route("/health", methods=["GET"], include_in_schema=False)
+@app.api_route("/", methods=["GET"], include_in_schema=False)
+def handle_health_endpoint():
     return health_check()
