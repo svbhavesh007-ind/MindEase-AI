@@ -358,9 +358,10 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (err) {
       console.error("Chat communication error:", err);
       typingIndicator.style.display = "none";
+      const errDetail = err && err.message ? err.message : String(err);
       renderMessage(
         "assistant",
-        "I'm listening and I want to support you, though I encountered a connection issue reaching the backend server.\n\n• If running locally, ensure `run.bat` is running.\n• If on Vercel, verify that `GROQ_API_KEY` is added under Project Settings ➔ Environment Variables."
+        `I'm listening and I want to support you, though I encountered an issue connecting to the backend server.\n\n🔍 **Diagnostics:** \`${errDetail}\`\n\n• **If running locally:** Ensure \`run.bat\` is running (server on \`http://127.0.0.1:8000\`).\n• **If on Vercel:** Check that \`GROQ_API_KEY\` is added in Project Settings ➔ Environment Variables, and verify your Vercel deployment status.`
       );
     }
 
