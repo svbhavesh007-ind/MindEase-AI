@@ -162,6 +162,8 @@ if target_static.exists():
 
     @app.get("/{full_path:path}", include_in_schema=False)
     async def serve_frontend(full_path: str):
+        if full_path.startswith("api/") or full_path == "api":
+            raise HTTPException(status_code=404, detail="API endpoint not found")
         file_path = target_static / full_path
         if file_path.exists() and file_path.is_file():
             return FileResponse(file_path)
