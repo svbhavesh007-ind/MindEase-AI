@@ -252,47 +252,61 @@ class EmotionClassifier:
                 self.groq_client = None
 
     def _ensure_model_loaded(self):
-        """Loads cached local model or trains on the curated dataset."""
+        """Loads cached local model or gracefully falls back without crashing."""
         if MODEL_FILE.exists():
             try:
                 self.model = joblib.load(MODEL_FILE)
                 self.classes = list(self.model.classes_)
                 if METRICS_FILE.exists():
-                    with open(METRICS_FILE, "r", encoding="utf-8") as f:
-                        self.metrics = json.load(f)
+                    try:
+                        with open(METRICS_FILE, "r", encoding="utf-8") as f:
+                            self.metrics = json.load(f)
+                    except Exception:
+                        pass
                 logger.info(f"Loaded emotion model with {len(self.classes)} classes.")
                 return
             except Exception as e:
-                logger.warning(f"Failed to load cached model ({e}), retraining...")
+                logger.warning(f"Failed to load cached model ({e})")
 
-        self.train_and_save()
+        # Try training if dataset exists
+        try:
+            self.train_and_save()
+        except Exception as e:
+            logger.warning(f"Could not initialize local model ({e}). Continuing with Neural Engine + Lexicon mode.")
 
-    def load_dataset(self) -> pd.DataFrame:
-        """Loads and sanitizes dataset from disk."""
+    def load_dataset(self) -> Optional[pd.DataFrame]:
+        """Loads and sanitizes dataset from disk safely."""
         target_path = DATASET_PATH
         if not target_path.exists():
             fallback = Path(__file__).resolve().parent.parent.parent.parent / "mental wellbeing emotional dataset.txt"
             if fallback.exists():
                 target_path = fallback
             else:
-                raise FileNotFoundError(f"Dataset not found at {DATASET_PATH}")
+                return None
 
-        df = pd.read_csv(target_path, sep="\t", engine="python")
-        if "emotion" not in df.columns or "text" not in df.columns:
-            df = pd.read_csv(target_path, sep=",", engine="python")
+        try:
+            df = pd.read_csv(target_path, sep="\t", engine="python")
+            if "emotion" not in df.columns or "text" not in df.columns:
+                df = pd.read_csv(target_path, sep=",", engine="python")
 
-        df = df.dropna(subset=["text", "emotion"])
-        df["text"] = df["text"].astype(str).str.strip()
-        df["emotion"] = df["emotion"].astype(str).str.strip().str.lower()
-        return df
+            df = df.dropna(subset=["text", "emotion"])
+            df["text"] = df["text"].astype(str).str.strip()
+            df["emotion"] = df["emotion"].astype(str).str.strip().str.lower()
+            return df
+        except Exception as e:
+            logger.warning(f"Error loading dataset: {e}")
+            return None
 
     def train_and_save(self) -> Dict[str, Any]:
         """
         Trains TF-IDF + LogisticRegression pipeline with 5-fold cross-validation.
-        Saves artifacts to disk and records evaluation metrics.
+        Saves artifacts to disk if writable, or keeps in memory.
         """
-        MODELS_DIR.mkdir(parents=True, exist_ok=True)
         df = self.load_dataset()
+        if df is None or len(df) == 0:
+            logger.warning("No dataset found. Local ML model remaining uninitialized.")
+            return {}
+
         X = df["text"]
         y = df["emotion"]
 

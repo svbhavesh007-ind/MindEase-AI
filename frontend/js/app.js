@@ -312,6 +312,16 @@ document.addEventListener("DOMContentLoaded", () => {
     typingIndicator.style.display = "flex";
     scrollToBottom();
 
+    if (window.location.protocol === "file:") {
+      typingIndicator.style.display = "none";
+      renderMessage(
+        "assistant",
+        "⚠️ **Backend is not connected!** You opened this file directly from your file manager (`file:///`).\n\n• **For Local Use:** Double-click `run.bat` and visit `http://127.0.0.1:8000`.\n• **For Vercel:** Open your live deployment URL (`https://your-project.vercel.app`)."
+      );
+      scrollToBottom();
+      return;
+    }
+
     try {
       const response = await fetch("/api/chat", {
         method: "POST",
@@ -323,7 +333,8 @@ document.addEventListener("DOMContentLoaded", () => {
       });
 
       if (!response.ok) {
-        throw new Error(`Server status: ${response.status}`);
+        const errorText = await response.text();
+        throw new Error(`Server returned status ${response.status}: ${errorText}`);
       }
 
       const data = await response.json();
@@ -347,7 +358,10 @@ document.addEventListener("DOMContentLoaded", () => {
     } catch (err) {
       console.error("Chat communication error:", err);
       typingIndicator.style.display = "none";
-      renderMessage("assistant", "I'm listening and I want to support you, though I encountered a brief connection issue. Please tell me more about how you're feeling.");
+      renderMessage(
+        "assistant",
+        "I'm listening and I want to support you, though I encountered a connection issue reaching the backend server.\n\n• If running locally, ensure `run.bat` is running.\n• If on Vercel, verify that `GROQ_API_KEY` is added under Project Settings ➔ Environment Variables."
+      );
     }
 
     scrollToBottom();
